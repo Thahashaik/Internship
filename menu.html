@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">  <! –– Specifies the character encoding for the HTML document. The HTML5 specification encourages web developers to use the UTF-8 character set! ––>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <! -- This gives the browser instructions on how to control the page's dimensions and scaling. -->
+        <title>Home | Seashore Bistro</title>
+        <! -- Linking CSS Files -->
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="globalStyles.css">
+        <link rel="stylesheet" href="components.css">
+        <! -- AOS CSS For scroll animation -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="menu.css">
+    </head>
+    <body>
+        <! -- Nav Section Start -->
+        <div class="nav">
+            <div class="container">
+                <div class="nav__wrapper">
+                    <a href="index.html" class="logo">
+                      <img src="./Images/RESTAURENT_LOGO.png" alt="Seashore Bistro">  
+                    </a>
+                    <nav>
+                        <div class="nav__icon">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            >
+                              <line x1="3" y1="12" x2="21" y2="12" />
+                              <line x1="3" y1="6" x2="21" y2="6" />
+                              <line x1="3" y1="18" x2="21" y2="18" />
+                            </svg>
+                        </div>
+                        <div class="nav__bgOverlay"></div>
+                        <ul class="nav__list">
+                            <div class="nav__close">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="24"
+                                  height="24"
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  stroke="currentColor"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                >
+                                  <line x1="18" y1="6" x2="6" y2="18" />
+                                  <line x1="6" y1="6" x2="18" y2="18" />
+                                </svg>
+                            </div>
+                            <div class="navlist_wrapper">
+                                <li><a href="index.html" class="nav_link">Home</a></li>
+                                <li><a href="menu.html" class="nav_link">Menu</a></li>
+                                <li><a href="about.html" class="nav_link">About</a></li>
+                                <li><a href="contact.html" class="nav_link">Contact</a></li>
+                                <li><a href="booking.html" class="btn primary-btn">Reserve Table</a></li>
+                            </div>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <! -- Nav Section end -->
+        <div class="Menu_page">
+            <div class="container">
+                <h1 class="title_menu">Our Tasty Menu</h1>
+                <div class="COLD_APPETIZER">
+                  <h2 class="section_title">Cold Appetizers</h2>
+                  <div class="container">
+                  <ul class="ul_2" style="list-style-type:disc">
+                      <li class="list_dish">
+                        <h3 class="dish_title">Apple & Pear Salad - ₹ 450                <p class="desc_dish">Apple, Pear, Dried Cranberry, Walnut Pomegranate Dressing</p></h3>
+                      </li>
+                      <li class="list_dish">
+                        <h3 class="dish_title">Horitiaki “greek Salad - ₹ 450           <p class="desc_dish">Diced Tomato, Tri Color Pepper, Cucumber, Feta Cheese, Kalamata Olives, Oregano And Onion, Tossed In Dressing</p></h3>
+                      </li>
+                  </ul>
+                  <ul class="ul_2" style="list-style-type:disc">
+                      <li class="list_dish">
+                        <h3 class="dish_title">Deconstructed Mediterranean Quinoa Salad - ₹ 450<p class="desc_dish">Quinoa, Beet Root Hummus, Tomato, Cucumber, Cherry Mozzarella, Olive, Heart Of Cos Olive Oil</p></h3>
+                      </li>
+                      <li class="list_dish">
+                        <h3 class="dish_title">Char Grilled Chicken Caesar Salad - ₹ 475  <p class="desc_dish">Char Grilled Chicken With Fresh Crisp Romaine Lettuce With Homemade Pork Bacon & Aged Parmesan With Garlic Crouton Caesar Dressing</p></h3>
+                      </li>
+                  </ul>  
+                 </div>
+                 <div class="COLD_APPETIZER">
+                  <h2 class="section_title">Try the local Flavours</h2>
+                  <div class="container">
+                  <ul class="ul_2" style="list-style-type:disc">
+                      <li class="list_dish">
+                        <h3 class="dish_title">Kodi Kora - ₹ 575                <p class="desc_dish">Chicken Curry Flavored With Southern Spices</p></h3>
+                      </li>
+                      <li class="list_dish">
+                        <h3 class="dish_title">Mutton Ghongura - ₹ 675<p class="desc_dish">Andhra Style Mutton With Indian Sorrel</p></h3>
+                      </li>
+                  </ul>
+                  <ul class="ul_2" style="list-style-type:disc">
+                      <li class="list_dish">
+                        <h3 class="dish_title">Andhra Veg Korma - ₹ 475<p class="desc_dish">Mixed Vegetables In Coconut And Cashew Nut Gravy</p></h3>
+                      </li>
+                      <li class="list_dish">
+                        <h3 class="dish_title">Chepala Pulusu - ₹ 675  <p class="desc_dish">Spicy and tangy popular Andhra Style fish curry</p></h3>
+                      </li>
+                  </ul>  
+                 </div>
+                  <div class="COLD_APPETIZER">
+                  <h2 class="section_title">Rest of India Delicacies</h2>
+                  <div class="container">
+                  <ul class="ul_2" style="list-style-type:disc">
+                      <li class="list_dish">
+                        <h3 class="dish_title">Butter Chicken - ₹ 575<p class="desc_dish">Chicken Tikka In Rich Tomato Cashew Gravy</p></h3>
+                      </li>
+                      <li class="list_dish">
+                        <h3 class="dish_title">Paneer Tikka Butter Masala - ₹ ₹ 525<p class="desc_dish">Cottage Cheese In Rich Tomato, Onion & Cashew Gravy</p></h3>
+                      </li>
+                  </ul>
+                  <ul class="ul_2" style="list-style-type:disc">
+                      <li class="list_dish">
+                        <h3 class="dish_title">Malai Kofta - ₹ 475<p class="desc_dish">Deep fried balls (koftas) made with potato and paneer are dunked in a creamy spiced velvety smooth curry.</p></h3>
+                      </li>
+                      <li class="list_dish">
+                        <h3 class="dish_title">Kadai Subz - ₹ 525  <p class="desc_dish">Mixed Vegetables In Tomato & Coarsely Ground Spices Gravy</p></h3>
+                      </li>
+                            </ul> 
+                  <ul class="ul_2" style="list-style-type:disc">
+                      <li class="list_dish">
+                        <h3 class="dish_title">Dal Makhni - ₹ 475  <p class="desc_dish">Black Lentils And Red Kidney Beans Cooked With Butter</p></h3>
+                      </li>
+                  </ul>  
+                 </div>
+               </div>
+              <div class="COLD_APPETIZER">
+                  <h2 class="section_title">Rice & Biryanis</h2>
+                  <div class="container">
+                  <ul class="ul_2" style="list-style-type:disc">
+                      <li class="list_dish">
+                        <h3 class="dish_title">Aromatic Murgh Biryani - ₹ 575<p class="desc_dish">Served With Fried Onions, Cashew Nuts, Raisins, Raita & Papadam</p></h3>
+                      </li>
+                      <li class="list_dish">
+                        <h3 class="dish_title">Steamed Basmati Rice - ₹ 300<p class="desc_dish">Plain Aromatic Rice</p></h3>
+                      </li>
+                  </ul>
+                  <ul class="ul_2" style="list-style-type:disc">
+                      <li class="list_dish">
+                        <h3 class="dish_title">Vegetable Pulao - ₹ 425<p class="desc_dish">Served With Fried Onions, Raita & Papadam</p></h3>
+                      </li>
+                      <li class="list_dish">
+                        <h3 class="dish_title">Dal Khichdi - ₹ 425  <p class="desc_dish">Rice Preparation With Lentils, Raita</p></h3>
+                      </li>
+                            </ul> 
+                  <ul class="ul_2" style="list-style-type:disc">
+                      <li class="list_dish">
+                        <h3 class="dish_title">Delicious Gosht Biryani - ₹ 725  <p class="desc_dish">Served With Fried Onion And Cashew Nuts, Raisins, Raita & Papadam</p></h3>
+                      </li>
+                  </ul>  
+                 </div>
+               </div>
+               <div class="COLD_APPETIZER">
+                  <h2 class="section_title">Indian Breads</h2>
+                  <div class="container">
+                  <ul class="ul_2" style="list-style-type:disc">
+                      <li class="list_dish">
+                        <h3 class="dish_title">Naan(2 pcs) - ₹ 95<p class="desc_dish">Plain, Garlic Or Butter</p></h3>
+                      </li>
+                      <li class="list_dish">
+                        <h3 class="dish_title">Kulcha(2 pcs) - ₹ 125<p class="desc_dish">Plain </p></h3>
+                      </li>
+                  </ul>
+                  <ul class="ul_2" style="list-style-type:disc">
+                      <li class="list_dish">
+                        <h3 class="dish_title">Phulka (2 Pcs) - ₹ 95<p class="desc_dish"></p></h3>
+                  </ul>  
+                 </div>
+               </div>
+              <div class="COLD_APPETIZER">
+                  <h2 class="section_title">Rice & Biryanis</h2>
+                  <div class="container">
+                  <ul class="ul_2" style="list-style-type:disc">
+                      <li class="list_dish">
+                        <h3 class="dish_title">Aromatic Murgh Biryani - ₹ 575<p class="desc_dish">Served With Fried Onions, Cashew Nuts, Raisins, Raita & Papadam</p></h3>
+                      </li>
+                      <li class="list_dish">
+                        <h3 class="dish_title">Steamed Basmati Rice - ₹ 300<p class="desc_dish">Plain Aromatic Rice</p></h3>
+                      </li>
+                  </ul>
+                  <ul class="ul_2" style="list-style-type:disc">
+                      <li class="list_dish">
+                        <h3 class="dish_title">Vegetable Pulao - ₹ 425<p class="desc_dish">Served With Fried Onions, Raita & Papadam</p></h3>
+                      </li>
+                      <li class="list_dish">
+                        <h3 class="dish_title">Dal Khichdi - ₹ 425  <p class="desc_dish">Rice Preparation With Lentils, Raita</p></h3>
+                      </li>
+                            </ul> 
+                  <ul class="ul_2" style="list-style-type:disc">
+                      <li class="list_dish">
+                        <h3 class="dish_title">Delicious Gosht Biryani - ₹ 725  <p class="desc_dish">Served With Fried Onion And Cashew Nuts, Raisins, Raita & Papadam</p></h3>
+                      </li>
+                  </ul>  
+                 </div>
+               </div>
+               <div class="COLD_APPETIZER">
+                  <h2 class="section_title">Sandwiches and Burger</h2>
+                  <div class="container">
+                  <ul class="ul_2" style="list-style-type:disc">
+                      <li class="list_dish">
+                        <h3 class="dish_title">Collage Grand Club Sandwich - ₹ 525<p class="desc_dish">Focaccia Bread Filled With Chicken, Pork Bacon, Fried Egg, Lettuce, Tomato And Mayonnaise</p></h3>
+                      </li>
+                      <li class="list_dish">
+                        <h3 class="dish_title">Mexican Chicken Burger - ₹ 575<p class="desc_dish">Spicy Chicken Patty, Cheese, Pico Di Gallo, Rocca, Curry Mayo</p></h3>
+                      </li>
+                  </ul>
+                  <ul class="ul_2" style="list-style-type:disc">
+                      <li class="list_dish">
+                        <h3 class="dish_title">Southern Chicken Burger - ₹ 575<p class="desc_dish">Fried Chicken, Tomatoes, Rocca, Onions, Curry Mayo</p></h3>
+                      </li>
+                      <li class="list_dish">
+                        <h3 class="dish_title">Khapli Atta Egg Roll - ₹ 475<p class="desc_dish">Emmer Wheat Roti Stuffed With Egg, Tomato, Cucumber Onion</p></h3>
+                      </li>
+                            </ul> 
+                  <ul class="ul_2" style="list-style-type:disc">
+                      <li class="list_dish">
+                        <h3 class="dish_title">Grilled Vegetables & Smoked Cheese Panini - ₹ 475  <p class="desc_dish">Grilled Vegetables, Smoked Cheese, Curry Mayo</p></h3>
+                      </li>
+                      <li class="list_dish">
+                        <h3 class="dish_title">Paneer Kulchadilla - ₹ 475  <p class="desc_dish">Masala Paneer Stuffed Quesadilla In Indian Kulcha Bread With Mint Chutney</p></h3>
+                      </li>
+                  </ul>  
+                 </div>
+               </div>
+               <div class="COLD_APPETIZER">
+                  <h2 class="section_title">Omelet and Eggs</h2>
+                  <div class="container">
+                  <ul class="ul_2" style="list-style-type:disc">
+                      <li class="list_dish">
+                        <h3 class="dish_title">All Day Omelets - ₹ 360<p class="desc_dish">Three Eggs With Your Choice Of Onion, Cheese, Tomatoe, Mixed Bell Pepper, Mushroom, Smoked Salmon And Green Chili, Grilled Tomatoes And Hash Brown</p></h3>
+                      </li>
+                      <li class="list_dish">
+                        <h3 class="dish_title">Two Farm Eggs, Any Style - ₹ 325<p class="desc_dish">Boiled, Scrambled, Poached, Fried With Hash Brown & Grilled Tomato</p></h3>
+                      </li>
+                  </ul>
+                  <ul class="ul_2" style="list-style-type:disc">
+                      <li class="list_dish">
+                        <h3 class="dish_title">Eggs White Omelet - ₹ 325<p class="desc_dish">Wilted Spinach, Grilled Tomato</p></h3>
+                      </li>
+                  </ul> 
+                 </div>
+               </div>
+                     <div class="COLD_APPETIZER">
+                  <h2 class="section_title">Hot Appetizers & Snack</h2>
+                  <div class="container">
+                  <ul class="ul_2" style="list-style-type:disc">
+                      <li class="list_dish">
+                        <h3 class="dish_title">Chili Prawns - ₹ 675<p class="desc_dish">Spicy Wok Tossed Prawns With Black Fungus & Bamboo Shoot</p></h3>
+                      </li>
+                      <li class="list_dish">
+                        <h3 class="dish_title">Fried Fish Finger - ₹ 550<p class="desc_dish">Tartare Sauce, Light Red Curry Mayonnaise</p></h3>
+                      </li>
+                  </ul>
+                  <ul class="ul_2" style="list-style-type:disc">
+                      <li class="list_dish">
+                        <h3 class="dish_title">Chicken 65 - ₹ 500<p class="desc_dish">Yoghurt, Spices, Curry Leaves</p></h3>
+                      </li>
+                      <li class="list_dish">
+                        <h3 class="dish_title">Vegetable Spring Roll - ₹ 450<p class="desc_dish">With Sweet Chili Sauce</p></h3>
+                      </li>
+                  </ul> 
+                  <ul class="ul_2" style="list-style-type:disc">
+                      <li class="list_dish">
+                        <h3 class="dish_title">Masala Peanut - ₹ 450<p class="desc_dish">Peanut, Onion, Tomato, Coriander, Chili, Lime</p></h3>
+                      </li>
+                  </ul> 
+                 </div>
+               </div>
+               <div class="Table_reserve">
+              <a href="booking.html" class="btn_r primary-btn_r">Reserve table now</a></div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+              <div class="footer__wrapper">
+                <div class="footer__col1">
+                  <div class="footer__logo">
+                    <img src="Images/RESTAURENT_LOGO.png" alt="shaif's cuisine">
+                  </div>
+                  <p class="footer__desc">
+                    Fresh and delicious food at the seashore with great ambience.
+                  </p>
+                  <div class="footer__socials">
+                    <h4 class="footer__socials__title">Follow us</h4>
+                    <ol class="footer__socials__list">
+                      <li>
+                        <a href="#">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-facebook">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-instagram">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-twitter">
+                            <path
+                              d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+                          </svg>
+                        </a>
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+                <div class="footer__col2">
+                  <h3 class="footer__text__title">
+                    Links
+                  </h3>
+                  <ol class="footer__text">
+                    <li>
+                      <a href="/index.html">Home</a>
+                    </li>
+                    <li>
+                      <a href="./menu.html">Menu</a>
+                    </li>
+                    <li>
+                      <a href="./about.html">About Us</a>
+                    </li>
+                    <li>
+                      <a href="./contact.html">Contact Us</a>
+                    </li>
+                     <li>
+                      <a href="./booking.html">Reserve table</a>
+                    </li>
+                  </ol>
+                </div>
+                <div class="footer__col3">
+                  <h3 class="footer__text__title">
+                    Support
+                  </h3>
+                  <ol class="footer__text">
+                    <li>
+                      <a href="#">Contact</a>
+                    </li>
+                    <li>
+                      <a href="#">Support Center</a>
+                    </li>
+                    <li>
+                      <a href="#">Feedback</a>
+                    </li>
+                  </ol>
+                </div>
+                <div class="footer__col4">
+                  <h3 class="footer__text__title">
+                    Contact
+                  </h3>
+                  <ol class="footer__text">
+                    <li>
+                      <a href="#">+918912345697</a>
+                    </li>
+                    <li>
+                      <a href="#">seashore_bistro@gmail.com</a>
+                    </li>
+                    <li>
+                      <a href="#">Q9MM+2V6, Dr NTR Beach Rd, Rushikonda, Visakhapatnam, Andhra Pradesh 530045</a>
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </footer>
+          <div id="copyright">
+            <div class="container">
+              <p class="copyright__text">
+                © copyright 2022| Seashore Bistro | All rights reserved
+              </p>
+            </div>
+          </div>
+  <!-- End Footer -->
+        <!-- aos script -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
