@@ -1,0 +1,382 @@
+hr {
+      border: 0px solid #DECBA4;
+      padding: 15px;
+}
+.hero__wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.Home_title {
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+.Home_desc{
+    font-size: 15px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.button_wrapper{
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+	.hero__wrapper {
+		flex-direction: row;
+		gap: 0;
+        display: flex;
+	    align-items: center;
+	    justify-content: center;
+        padding: 10px;
+        padding-right: 110px;
+	}
+
+.Homebar{
+    padding: 20px 20px 20px 20px;
+    padding-left: 100px;
+    }
+}
+
+/* END */
+
+@media only screen and (min-width: 768px){
+
+.Location,
+.contact{
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.Location_Contact:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contact,
+.Location{
+    padding: 10px;
+}
+.Location_Heading{
+          font-size: 30px;
+          text-align:left;
+          padding: 20px;
+          padding-left: 0px;
+          padding-top: 0px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight:600;
+          color: #613818;
+    }
+    
+.Gmaps{
+    max-width: 1000px;
+    max-height: 165px;
+    padding: 0px 20px 10px 0px;  
+    }
+    
+.Heading {
+          font-size: 30px;
+          text-align:left;
+          padding: 10px;
+          padding-left: 0px;
+          padding-top: 0px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight:600;
+          color: #613818;
+    }
+.contact {
+    padding: 10px;
+        }
+.details{
+    padding: 10px;
+    padding-left: 0px;   
+    }
+}
+    
+@media only screen and (max-width: 768px){
+    
+.Location_Contact{
+   max-width: 100%;
+}
+
+.Column{
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.contact:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contact,
+.Location{
+    padding: 10px;
+}
+
+.Heading,
+.Location_Heading{
+          font-size: 10px;
+          text-align:left;
+          padding: 10px;
+          padding-left: 0px;
+          padding-top: 0px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight:600;
+          color: #613818;
+    }
+
+.text p{
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+}
+
+.Gmaps{
+    max-width: 300px;
+    max-height: 150px;
+    padding: 0px 20px 10px 0px;  
+    }
+}
+
+
+.Our_story,
+.Story{
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.About_story:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.image_story {
+        max-width: 590px;
+    }
+    
+.About {
+    padding: 70px;
+
+}
+
+.Our_Story {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+    color: #613818;
+    padding: 5px;
+    text-align: center;
+    }
+.home_story_desc{
+            font-size: 20px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight:300;
+            color: #613818;
+            padding: 5px;
+            text-align: center;
+    }
+
+
+@media screen and (max-width: 768px) {
+.Our_story,
+.Story{
+    width: 100%;
+    align-items: center;
+  }
+hr {
+      border: 0px solid #DECBA4;
+      padding: 10px;
+}
+    
+.About {
+    padding: 10px;
+
+}
+}
+
+/* Home section dishes section */
+
+.title_dish {
+        font-size: 30px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight:600;
+        color: #613818;
+        padding: 20px;
+        text-align: center;
+}
+
+.dish_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.dish_title {
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight:600;
+        color: #613818;
+        padding: 20px;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 20px;
+}
+
+/* News letter Section Styles */
+
+.newsletter{
+    padding: 20px;
+}
+.Newsletter_section{
+    background-color: #f9ea8f;
+    border-radius: 50px;
+    padding: 30px;
+}
+
+.title_newsletter {
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+    color: #613818;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+.desc_newsletter{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+    color: #613818;
+    text-align: center;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+
+.newsletter__form form {
+	position: relative;
+	width: 50%;
+	overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.newsletter__form label {
+	width: 100%;
+}
+.newsletter__form input {
+	width: 100%;
+	font-size: 1.4rem;
+	padding: 1.5rem 1rem;
+	border: none;
+}
+.newsletter__form input::placeholder {
+	color: rgb(168, 166, 166);
+}
+.newsletter__form button[type='submit'] {
+	background-color: #006400;
+	color: white;
+	border: none;
+	font-size: 1.4rem;
+	padding: 0 2rem;
+	height: 100%;
+	/* width: 100%; */
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+@media only screen and (max-width: 768px){
+
+.title_newsletter {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+    color: #613818;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+.desc_newsletter{
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+    color: #613818;
+    text-align: center;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+
+.newsletter__form form {
+	position: relative;
+	width: 80%;
+	overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.newsletter__form label {
+	width: 100%;
+}
+.newsletter__form input {
+	width: 100%;
+	font-size: 1.2rem;
+	padding: 1.5rem 1rem;
+	border: none;
+}
+.newsletter__form input::placeholder {
+	color: rgb(168, 166, 166);
+}
+.newsletter__form button[type='submit'] {
+	background-color: #006400;
+	color: white;
+	border: none;
+	font-size: 1rem;
+	padding: 0 2rem;
+	height: 100%;
+	/* width: 100%; */
+	position: absolute;
+	right: 0;
+	top: 0;
+}   
+}
+
+
+@media only screen and (min-width: 768px){
+    
+.dish {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.dishes:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.Special_dishes{
+    padding-bottom: 20px; 
+    }
+}
+
+
+    
+
+    
